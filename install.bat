@@ -7,5 +7,5 @@ echo Exiting.
 exit /b 1
 
 :install
-schtasks /create /xml %~dp0Windows-Lock-Mute-Lock.xml /tn Windows-Lock-Mute-Lock
-schtasks /create /xml %~dp0Windows-Lock-Mute-Unlock.xml /tn Windows-Lock-Mute-Unlock
+schtasks /create /xml %~dp0tasks\Windows-Lock-Mute-Lock.xml /tn Windows-Lock-Mute-Lock
+schtasks /create /xml %~dp0tasks\Windows-Lock-Mute-Unlock.xml /tn Windows-Lock-Mute-Unlock
