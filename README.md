@@ -11,6 +11,9 @@ Clone the repo and run the install script.
 git clone https://github.com/schmich/Windows-Lock-Mute %APPDATA%\Windows-Lock-Mute
 %APPDATA%\Windows-Lock-Mute\install
 ```
+
+If you don't have git, [download](https://github.com/schmich/Windows-Lock-Mute/archive/master.zip) the source and copy it to `%APPDATA%\Windows-Lock-Mute`.
+
 ## Uninstalling
 
 Run the uninstall script and delete the cloned folder.
