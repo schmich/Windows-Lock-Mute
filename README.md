@@ -22,7 +22,7 @@ rmdir /s/q %APPDATA%\Windows-Lock-Mute
 
 ## Requirements
 
-- Windows 7
+- Windows Vista+
 - PowerShell
 
 This software was only tested on Windows 7 in a single-user environment. It should work on other Vista+ versions of Windows.
