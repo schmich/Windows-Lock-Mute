@@ -1,7 +1,7 @@
 # Windows-Lock-Mute
 Automatically mute Windows when you lock your workstation.
 
-The mute state will be restored to its previous setting when you unlock your workstation.
+The mute state is restored to its previous setting when you unlock your workstation.
 
 ## Installing
 
@@ -12,7 +12,7 @@ git clone https://github.com/schmich/Windows-Lock-Mute %APPDATA%\Windows-Lock-Mu
 %APPDATA%\Windows-Lock-Mute\install
 ```
 
-If you don't have git, [download](https://github.com/schmich/Windows-Lock-Mute/archive/master.zip) the source and copy it to `%APPDATA%\Windows-Lock-Mute`.
+If you don't have git, [download](https://github.com/schmich/Windows-Lock-Mute/archive/master.zip) the source, copy it to `%APPDATA%\Windows-Lock-Mute`, then run the `install` script.
 
 ## Uninstalling
 
