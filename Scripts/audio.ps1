@@ -1,4 +1,4 @@
-Add-Type -Language CsharpVersion3 -TypeDefinition @'
+Add-Type -Language CSharpVersion3 -TypeDefinition @'
 using System.Runtime.InteropServices;
 
 [Guid("5CDF2C82-841E-4546-9722-0CF74078229A"), InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
