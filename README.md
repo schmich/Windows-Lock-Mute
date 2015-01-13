@@ -1,5 +1,6 @@
 # Windows-Lock-Mute
-Automatically mute Windows when you lock your workstation.
+
+Automatically mute Windows when you lock your workstation. Additionally, put all displays into power-save mode a short time after the lock.
 
 The mute state is restored to its previous setting when you unlock your workstation.
 
