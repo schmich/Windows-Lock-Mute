@@ -1,6 +1,6 @@
 # Windows-Lock-Mute
 
-Automatically mute Windows when you lock your workstation. Additionally, put all displays into power-save mode a short time after the lock.
+Automatically mute Windows and put all displays to sleep when you lock your workstation.
 
 The mute state is restored to its previous setting when you unlock your workstation.
 
@@ -9,8 +9,8 @@ The mute state is restored to its previous setting when you unlock your workstat
 Clone the repo and run the install script.
 
 ```
-git clone https://github.com/schmich/Windows-Lock-Mute %APPDATA%\Windows-Lock-Mute
-%APPDATA%\Windows-Lock-Mute\install
+git clone https://github.com/schmich/Windows-Lock-Mute "%APPDATA%\Windows-Lock-Mute"
+"%APPDATA%\Windows-Lock-Mute\install"
 ```
 
 If you don't have git, [download](https://github.com/schmich/Windows-Lock-Mute/archive/master.zip) the source, copy it to `%APPDATA%\Windows-Lock-Mute`, then run the `install` script.
@@ -20,8 +20,8 @@ If you don't have git, [download](https://github.com/schmich/Windows-Lock-Mute/a
 Run the uninstall script and delete the cloned folder.
 
 ```
-%APPDATA%\Windows-Lock-Mute\uninstall
-rmdir /s/q %APPDATA%\Windows-Lock-Mute
+"%APPDATA%\Windows-Lock-Mute\uninstall"
+rmdir /s/q "%APPDATA%\Windows-Lock-Mute"
 ```
 
 ## Requirements
